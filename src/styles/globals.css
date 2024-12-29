@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.app {
+  padding: 20px;
+}
+
+.about-me,
+.projects {
+  margin-bottom: 40px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .project-card {
+    border: none;
+  }
+}
